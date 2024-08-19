@@ -9,7 +9,7 @@ int dp[5050][5050];
 int ans[5050][5050];
 int Count = 0;
 
-int getLCSLength(string A, string B) {
+int getLCSLength (string A, string B) {
 	int m = A.length() - 1;
 	int n = B.length() - 1;
 	for (int i = 0; i <= m; i++)
